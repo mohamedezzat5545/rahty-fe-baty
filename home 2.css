@@ -1,0 +1,56 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items:center;
+  background-color: red;
+}
+.navbar .links{
+    display: flex;
+  list-style: none;
+
+  
+  }
+  .navbar img{
+    width: 110px;
+    height: 110px;
+
+  
+}
+.navbar h1{
+    color: blue;
+    font-style: oblique;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    padding-right: 950px;
+    }
+    .navbar .links{
+      display: flex;
+    list-style: none;
+    
+    
+      
+    }
+    .navbar .links li a{
+        text-decoration:none;
+        color: aqua;
+       margin-left: 5px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 200;
+    border-style: solid;
+    border-color: chartreuse;
+    padding: 10px;
+    border-radius: 20px;
+    
+    
+    
+    
+    }
